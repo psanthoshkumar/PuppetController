@@ -3,10 +3,5 @@ node default {
 	ensure	=>	file,
 	content	=>	'this is testing file\n',
 	owner	=> 'root',
-
-	}
-	file {'/root/README':
-	owner	=>	'root',
-
-	}
+}
 }
