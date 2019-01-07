@@ -4,4 +4,7 @@ node default {
 	content	=>	'this is testing file\n',
 	owner	=> 'root',
 }
+class { '::icinga2':
+  manage_repo => true,
+}
 }
